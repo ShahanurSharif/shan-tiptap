@@ -1,0 +1,57 @@
+{
+  "name": "shan-tiptap",
+  "version": "1.0.0",
+  "description": "A modern, feature-rich rich text editor built on top of Tiptap for React/Next.js applications",
+  "main": "TipTap.tsx",
+  "keywords": [
+    "react",
+    "nextjs",
+    "tiptap",
+    "rich-text-editor",
+    "wysiwyg",
+    "editor",
+    "typescript",
+    "text-formatting"
+  ],
+  "author": "Shah",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0",
+    "next": "^14.0.0 || ^15.0.0"
+  },
+  "dependencies": {
+    "@tiptap/react": "^2.1.0",
+    "@tiptap/starter-kit": "^2.1.0",
+    "@tiptap/extension-underline": "^2.1.0",
+    "@tiptap/extension-text-align": "^2.1.0",
+    "@tiptap/extension-task-list": "^2.1.0",
+    "@tiptap/extension-task-item": "^2.1.0",
+    "@tiptap/extension-color": "^2.1.0",
+    "@tiptap/extension-list-item": "^2.1.0",
+    "@tiptap/extension-text-style": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0",
+    "sass": "^1.69.0"
+  },
+  "files": [
+    "**/*.tsx",
+    "**/*.ts",
+    "**/*.scss",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShahanurSharif/ShanTiptap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ShahanurSharif/ShanTiptap/issues"
+  },
+  "homepage": "https://github.com/ShahanurSharif/ShanTiptap#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

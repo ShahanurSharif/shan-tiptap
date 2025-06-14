@@ -1,0 +1,51 @@
+/**
+ * Paragraph node styles for Tiptap editor
+ * This file provides basic styling for paragraph elements in the Tiptap editor
+ */
+
+.ProseMirror {
+  p {
+    margin: 0.5em 0;
+    line-height: 1.6;
+    
+    &:first-child {
+      margin-top: 0;
+    }
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+    
+    &.has-focus {
+      outline: none;
+    }
+  }
+  
+  /* Text alignment classes */
+  .text-left {
+    text-align: left;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .text-justify {
+    text-align: justify;
+  }
+}
+
+/* Additional paragraph styling */
+.tiptap-paragraph {
+  &.is-empty::before {
+    content: attr(data-placeholder);
+    float: left;
+    color: #adb5bd;
+    pointer-events: none;
+    height: 0;
+  }
+}
