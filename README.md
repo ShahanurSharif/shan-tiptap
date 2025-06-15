@@ -1,8 +1,8 @@
 # ShanTiptap 🚁✈️
 
-A modern, feature-rich rich text editor built on top of Tiptap for React/Next.js applications. Designed specifically for aviation job creation forms and professional content management.
+A modern, feature-rich rich text editor built on top of Tiptap for React/Next.js applications. Designed specifically for job creation forms and professional content management.
 
-![ShanTiptap Editor](./screenshot.png)
+![ShanTiptap Editor](./TipTop.png)
 
 ## ✨ Features
 
@@ -257,8 +257,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - 🐛 **Bug Reports**: [GitHub Issues](https://github.com/ShahanurSharif/ShanTiptap/issues)
 - 💡 **Feature Requests**: [GitHub Discussions](https://github.com/ShahanurSharif/ShanTiptap/discussions)
-- 📧 **Email**: [Your Email]
+- 📧 **Linkedin**: [Linkedin](https://www.linkedin.com/in/shahanursharif)
 
 ---
 
-**Built with ❤️ for the Aviation Industry by [ShahanurSharif](https://github.com/ShahanurSharif)**
+**Built with ❤️ for job creation form by [ShahanurSharif](https://github.com/ShahanurSharif)**
