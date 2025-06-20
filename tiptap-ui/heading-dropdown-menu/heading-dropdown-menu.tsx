@@ -4,14 +4,14 @@ import * as React from "react"
 import { isNodeSelection, type Editor } from "@tiptap/react"
 
 // --- Hooks ---
-import { useTiptapEditor } from "@/hooks/use-tiptap-editor"
+import { useTiptapEditor } from "../../hooks/use-tiptap-editor"
 
 // --- Icons ---
-import { ChevronDownIcon } from "@/components/ShanTiptap/tiptap-icons/chevron-down-icon"
-import { HeadingIcon } from "@/components/ShanTiptap/tiptap-icons/heading-icon"
+import { ChevronDownIcon } from "../../tiptap-icons/chevron-down-icon"
+import { HeadingIcon } from "../../tiptap-icons/heading-icon"
 
 // --- Lib ---
-import { isNodeInSchema } from "@/lib/tiptap-utils"
+import { isNodeInSchema } from "../../lib/tiptap-utils"
 
 // --- Tiptap UI ---
 import {
