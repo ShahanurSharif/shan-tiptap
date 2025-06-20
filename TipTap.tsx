@@ -1,5 +1,5 @@
 import React from 'react'
-import TiptapEditorWrapper from './MenuBar.tsx'
+import TiptapEditorWrapper from './MenuBar'
 
 interface TiptapProps {
   value?: string
