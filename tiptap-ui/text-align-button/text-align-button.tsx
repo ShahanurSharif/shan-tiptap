@@ -4,17 +4,17 @@ import * as React from "react"
 import { type Editor, type ChainedCommands } from "@tiptap/react"
 
 // --- Hooks ---
-import { useTiptapEditor } from "@/hooks/use-tiptap-editor"
+import { useTiptapEditor } from "../../hooks/use-tiptap-editor.ts"
 
 // --- Icons ---
-import { AlignCenterIcon } from "@/components/ShanTiptap/tiptap-icons/align-center-icon"
-import { AlignJustifyIcon } from "@/components/ShanTiptap/tiptap-icons/align-justify-icon"
-import { AlignLeftIcon } from "@/components/ShanTiptap/tiptap-icons/align-left-icon"
-import { AlignRightIcon } from "@/components/ShanTiptap/tiptap-icons/align-right-icon"
+import { AlignCenterIcon } from "../../tiptap-icons/align-center-icon.tsx"
+import { AlignJustifyIcon } from "../../tiptap-icons/align-justify-icon.tsx"
+import { AlignLeftIcon } from "../../tiptap-icons/align-left-icon.tsx"
+import { AlignRightIcon } from "../../tiptap-icons/align-right-icon.tsx"
 
 // --- UI Primitives ---
-import type { ButtonProps } from "@/components/ShanTiptap/tiptap-ui-primitive/button"
-import { Button } from "@/components/ShanTiptap/tiptap-ui-primitive/button"
+import type { ButtonProps } from "../../tiptap-ui-primitive/button/index.tsx"
+import { Button } from "../../tiptap-ui-primitive/button/index.tsx"
 
 export type TextAlign = "left" | "center" | "right" | "justify"
 

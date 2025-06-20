@@ -4,22 +4,22 @@ import * as React from "react"
 import { isNodeSelection, type Editor } from "@tiptap/react"
 
 // --- Hooks ---
-import { useTiptapEditor } from "@/hooks/use-tiptap-editor"
+import { useTiptapEditor } from "../../hooks/use-tiptap-editor.ts"
 
 // --- Icons ---
-import { HeadingOneIcon } from "@/components/ShanTiptap/tiptap-icons/heading-one-icon"
-import { HeadingTwoIcon } from "@/components/ShanTiptap/tiptap-icons/heading-two-icon"
-import { HeadingThreeIcon } from "@/components/ShanTiptap/tiptap-icons/heading-three-icon"
-import { HeadingFourIcon } from "@/components/ShanTiptap/tiptap-icons/heading-four-icon"
-import { HeadingFiveIcon } from "@/components/ShanTiptap/tiptap-icons/heading-five-icon"
-import { HeadingSixIcon } from "@/components/ShanTiptap/tiptap-icons/heading-six-icon"
+import { HeadingOneIcon } from "../../tiptap-icons/heading-one-icon.tsx"
+import { HeadingTwoIcon } from "../../tiptap-icons/heading-two-icon.tsx"
+import { HeadingThreeIcon } from "../../tiptap-icons/heading-three-icon.tsx"
+import { HeadingFourIcon } from "../../tiptap-icons/heading-four-icon.tsx"
+import { HeadingFiveIcon } from "../../tiptap-icons/heading-five-icon.tsx"
+import { HeadingSixIcon } from "../../tiptap-icons/heading-six-icon.tsx"
 
 // --- Lib ---
-import { isNodeInSchema } from "@/lib/tiptap-utils"
+import { isNodeInSchema } from "../../lib/tiptap-utils.ts"
 
 // --- UI Primitives ---
-import type { ButtonProps } from "@/components/ShanTiptap/tiptap-ui-primitive/button"
-import { Button } from "@/components/ShanTiptap/tiptap-ui-primitive/button"
+import type { ButtonProps } from "../../tiptap-ui-primitive/button/index.tsx"
+import { Button } from "../../tiptap-ui-primitive/button/index.tsx"
 
 export type Level = 1 | 2 | 3 | 4 | 5 | 6
 

@@ -4,23 +4,23 @@ import * as React from "react"
 import { isNodeSelection, type Editor } from "@tiptap/react"
 
 // --- Hooks ---
-import { useTiptapEditor } from "@/hooks/use-tiptap-editor"
+import { useTiptapEditor } from "../../hooks/use-tiptap-editor.ts"
 
 // --- Icons ---
-import { BoldIcon } from "@/components/ShanTiptap/tiptap-icons/bold-icon"
-import { Code2Icon } from "@/components/ShanTiptap/tiptap-icons/code2-icon"
-import { ItalicIcon } from "@/components/ShanTiptap/tiptap-icons/italic-icon"
-import { StrikeIcon } from "@/components/ShanTiptap/tiptap-icons/strike-icon"
-import { SubscriptIcon } from "@/components/ShanTiptap/tiptap-icons/subscript-icon"
-import { SuperscriptIcon } from "@/components/ShanTiptap/tiptap-icons/superscript-icon"
-import { UnderlineIcon } from "@/components/ShanTiptap/tiptap-icons/underline-icon"
+import { BoldIcon } from "../../tiptap-icons/bold-icon.tsx"
+import { Code2Icon } from "../../tiptap-icons/code2-icon.tsx"
+import { ItalicIcon } from "../../tiptap-icons/italic-icon.tsx"
+import { StrikeIcon } from "../../tiptap-icons/strike-icon.tsx"
+import { SubscriptIcon } from "../../tiptap-icons/subscript-icon.tsx"
+import { SuperscriptIcon } from "../../tiptap-icons/superscript-icon.tsx"
+import { UnderlineIcon } from "../../tiptap-icons/underline-icon.tsx"
 
 // --- Lib ---
-import { isMarkInSchema } from "@/lib/tiptap-utils"
+import { isMarkInSchema } from "../../lib/tiptap-utils.ts"
 
 // --- UI Primitives ---
-import type { ButtonProps } from "@/components/ShanTiptap/tiptap-ui-primitive/button"
-import { Button } from "@/components/ShanTiptap/tiptap-ui-primitive/button"
+import type { ButtonProps } from "../../tiptap-ui-primitive/button/index.tsx"
+import { Button } from "../../tiptap-ui-primitive/button/index.tsx"
 
 export type Mark =
   | "bold"

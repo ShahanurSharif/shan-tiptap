@@ -19,18 +19,18 @@ import {
   headingIcons,
   type Level,
   getFormattedHeadingName,
-} from "@/components/ShanTiptap/tiptap-ui/heading-button/heading-button"
+} from "../heading-button/heading-button.tsx"
 
 // --- UI Primitives ---
-import type { ButtonProps } from "@/components/ShanTiptap/tiptap-ui-primitive/button"
-import { Button } from "@/components/ShanTiptap/tiptap-ui-primitive/button"
+import type { ButtonProps } from "../../tiptap-ui-primitive/button/index.tsx"
+import { Button } from "../../tiptap-ui-primitive/button/index.tsx"
 import {
   DropdownMenu,
   DropdownMenuTrigger,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuGroup,
-} from "@/components/ShanTiptap/tiptap-ui-primitive/dropdown-menu"
+} from "../../tiptap-ui-primitive/dropdown-menu/index.tsx"
 
 export interface HeadingDropdownMenuProps extends Omit<ButtonProps, "type"> {
   editor?: Editor | null

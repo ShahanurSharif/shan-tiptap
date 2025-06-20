@@ -21,7 +21,7 @@ import {
   useTypeahead,
 } from "@floating-ui/react"
 import "@/components/ShanTiptap/tiptap-ui-primitive/dropdown-menu/dropdown-menu.scss"
-import { Separator } from "@/components/ShanTiptap/tiptap-ui-primitive/separator"
+import { Separator } from "../separator/index.tsx"
 
 interface DropdownMenuOptions {
   initialOpen?: boolean
