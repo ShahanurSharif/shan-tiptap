@@ -13,10 +13,10 @@ import './tiptap-node/code-block-node/code-block-node.scss'
 import './tiptap-node/paragraph-node/paragraph-node.scss'
 import styles from './MenuBar.module.scss'
 // Import Tiptap UI components
-import { HeadingDropdownMenu } from './tiptap-ui/heading-dropdown-menu'
-import { ListDropdownMenu } from './tiptap-ui/list-dropdown-menu'
-import { TextAlignButton } from './tiptap-ui/text-align-button'
-import { MarkButton } from './tiptap-ui/mark-button'
+import { HeadingDropdownMenu } from './tiptap-ui/heading-dropdown-menu/index.tsx'
+import { ListDropdownMenu } from './tiptap-ui/list-dropdown-menu/index.tsx'
+import { TextAlignButton } from './tiptap-ui/text-align-button/index.tsx'
+import { MarkButton } from './tiptap-ui/mark-button/index.tsx'
 
 const MenuBar = () => {
   const { editor } = useCurrentEditor()
