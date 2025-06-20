@@ -1,6 +1,6 @@
 {
   "name": "shan-tiptap",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A modern, feature-rich rich text editor built on top of Tiptap for React/Next.js applications",
   "main": "index.ts",
   "types": "index.ts",

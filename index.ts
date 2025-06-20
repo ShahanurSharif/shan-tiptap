@@ -1,7 +1,7 @@
 // Main component exports
-export { default } from './TipTap'
-export { default as ShanTiptap } from './TipTap'
-export { default as TiptapEditorWrapper } from './MenuBar'
+export { default } from './TipTap.tsx'
+export { default as ShanTiptap } from './TipTap.tsx'
+export { default as TiptapEditorWrapper } from './MenuBar.tsx'
 
 // Re-export commonly used Tiptap types
 export type { Editor } from '@tiptap/react'
